@@ -260,8 +260,6 @@ contract MessageStorage is ReentrancyGuard, Ownable {
 
     /**
      * @dev Get message details
-     * @param _messageId ID of the message
-     * @return Message details
      */
     function getMessage(uint256 _messageId) 
         external 
